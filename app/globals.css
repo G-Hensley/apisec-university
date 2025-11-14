@@ -28,9 +28,12 @@ body {
     @apply h-fit min-h-screen w-full
   }
   .section-header {
-    @apply flex flex-col gap-4 items-center;
+    @apply flex flex-col gap-2 items-center;
   }
   .section-header h2 {
     @apply text-4xl text-transparent bg-clip-text bg-linear-90 from-secondary to-primary brightness-150 font-primary;
+  }
+  .section-header h3 {
+    @apply text-2xl text-slate-400;
   }
 }
