@@ -13,8 +13,10 @@ export default function ContentTabs() {
         <h2>Everything You Need for API Security</h2>
         <h3>Learn. Certify. Secure.</h3>
       </header>
-      <Tabs />
-      {activeTab === 'Courses' && <CoursesTab />}
+      <div className="flex flex-col mx-auto w-fit">
+        <Tabs />
+        {activeTab === 'Courses' && <CoursesTab />}
+      </div>
     </section>
   )
 

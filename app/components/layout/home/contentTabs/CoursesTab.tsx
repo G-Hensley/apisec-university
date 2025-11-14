@@ -23,7 +23,7 @@ export default function CoursesTab() {
 
   return (
     <section 
-      className="w-full h-full flex flex-wrap justify-center gap-8 rounded-lg rounded-tl-none border
+      className="w-fit h-full flex flex-wrap justify-center gap-8 rounded-lg rounded-tl-none border
       border-primary/50 p-8"
     >
       {courses.map((course, index) => (
