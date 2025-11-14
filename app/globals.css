@@ -19,3 +19,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 } */
+
+@layer utilities {
+  h1 {
+    @apply text-transparent bg-clip-text bg-linear-90 from-secondary to-primary brightness-150
+  }
+  .section {
+    @apply h-fit min-h-screen w-full
+  }
+  .section-header {
+    @apply flex flex-col gap-4 items-center;
+  }
+  .section-header h2 {
+    @apply text-4xl text-transparent bg-clip-text bg-linear-90 from-secondary to-primary brightness-150 font-primary;
+  }
+}
